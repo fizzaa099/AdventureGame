@@ -14,10 +14,15 @@ elif ["$location" == "castle"]; then
 elif ["$location" == "cave"]; then
   cat cave.txt
 <<<<<<< HEAD
+<<<<<<< HEAD
 echo "But wait...
 cat monster.txt
 =======
 >>>>>>> 84e82ed (Add interactive prompts to game script)
+=======
+echo "But wait...
+cat monster.txt
+>>>>>>> 49ebbbe (Update welcome message in main branch)
 else
 echo "Invalid location."
 fi
