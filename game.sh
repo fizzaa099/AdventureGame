@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 echo "Welcome to the Ultimate Adventure Game with Monsters!"
 echo "Welcome to the Adventure Game!" echo "Choose a location to explore: forest, castle, or cave."
@@ -6,6 +7,11 @@ echo "Welcome to the Adventure Game!" echo "Choose a location to explore: forest
 echo "Welcome to the Adventure Game!"
 echo "Choose a location to explore: forest, castle, or cave."
 >>>>>>> 84e82ed (Add interactive prompts to game script)
+=======
+
+echo "Welcome to the Ultimate Adventure Game with Monsters!"
+echo "Welcome to the Adventure Game!" echo "Choose a location to explore: forest, castle, or cave."
+>>>>>>> 9247377 (Resolve merge conflict between main and add-monster)
 read location
 if ["$location" == "forest" ]; then
   cat forest.txt
